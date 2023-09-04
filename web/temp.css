@@ -1,0 +1,90 @@
+html {
+    font-family: Arial; 
+    display: inline-block; 
+    text-align: center;
+  }
+  h1 {
+    font-size: 3rem;
+    color: white;
+  }
+  h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #143642;
+  }
+  p { 
+    font-size: 1.2rem;
+  }
+  body {  
+    margin: 0;
+  }
+  .topnav { 
+    overflow: hidden; 
+    background-color: #50B8B4; 
+    color: white; 
+    font-size: 1rem; 
+  }
+  .content { 
+    padding: 20px; 
+  }
+  .chart { 
+    min-width: 310px;
+    max-width: 600px;
+    height: 460px;
+    /* background-color: lightcyan;  */
+    box-shadow: 2px 2px 12px 1px rgba(140,140,140,.5); 
+  }
+  .charts { 
+    max-width: 1200px; 
+    height: 460px;
+    margin: 0 auto; 
+    display: grid; 
+    grid-gap: 2rem; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .content2 {
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .LED_card {
+    background-color: #F8F7F9;;
+    box-shadow: 2px 2px 12px 1px rgba(100,100,100,.5);
+    padding-top:5px;
+    padding-bottom:10px;
+  }
+  .button {
+    padding: 15px 30px;
+    font-size: 24px;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #0f8b8d;
+    border: none;
+    border-radius: 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-shighlight-color: rgba(0,0,0,0);
+  }
+  .button:active {
+    background-color: #0f8b8d;
+    box-shadow: 2 2px #CDCDCD;
+    transform: translateY(5px);
+  }
+  .state {
+    font-size: 1.1rem;
+    color:#8c8c8c;
+    font-weight: bold;
+  }
+  .reading { 
+    font-size: 1.4rem;  
+  }

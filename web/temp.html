@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>ESP Web Server</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" type="text/css" href="temp.css">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+  </head>
+  <body>
+    <div class="topnav">
+      <h1>TEST LOCAL WEB SERVER</h1>
+      <h2>THEO DOI NHIET DO - DO AM - LED</h2>
+    </div>
+    <div class="content">
+      <div class="charts">
+        <div class="chart">
+          <p><i class="fas fa-thermometer-half" style="color:#ca0b0b;"> Nhiet do (&deg;C)</i></p>
+          <p id="chart-temperature" class="container"></p>
+        </div>
+        <div class="chart">
+          <p><i class="fas fa-tint" style="color:#0a18da;"> Do am (&percnt;)</i></p>
+          <p id="chart-humidity" class="container"></p>
+        </div>
+        <!-- <div class="card">
+          <p><i class="fas fa-thermometer-half" style="color:#059e8a;"></i> TEMPERATURE</p>
+          <p><span class="reading"><span id="temp">%TEMPERATURE%</span> &deg;C</span></p>
+        </div>
+        <div class="card">
+          <p><i class="fas fa-tint" style="color:#00add6;"></i> HUMIDITY</p>
+          <p><span class="reading"><span id="hum">%HUMIDITY%</span> &percnt;</span></p>
+        </div> -->
+        <!-- <div class="card">
+          <p><i class="fas fa-angle-double-down" style="color:#e1e437;"></i> PRESSURE</p>
+          <p><span class="reading"><span id="pres">%PRESSURE%</span> hPa</span></p>
+        </div> -->
+      </div>
+    </div>
+    <div class="content2">
+      <div class="LED_card">
+        <h3>Trang thai LED</h3>
+        <p class="state">state: <span id="state">%STATE%</span></p>
+        <p><button id="button" class="button">Toggle</button></p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

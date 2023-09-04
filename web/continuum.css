@@ -1,0 +1,36 @@
+body {
+    font-family: "Trebuchet MS", Arial;
+    margin-left:auto;
+    margin-right:auto;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: left;
+    margin-left: 250px;
+}
+.slider {
+    width: 600px;
+    align-items: first baseline;
+}
+.pull_up {
+    max-width: 600px;
+}
+.pull_left {
+    max-width: 600px;
+}
+.content1 { 
+    padding: 5px; 
+}
+.content2 { 
+    padding: 5px; 
+}
+.sliders { 
+    max-width: 1200px; 
+    /* height: 460px; */
+    margin: 0 auto; 
+    display: grid; 
+    grid-gap: 2rem; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}

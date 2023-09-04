@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" type="text/css" href="continuum.css">
+</head>
+<body>
+  <div class="topnav">
+    <h1>Continuum with ESP32</h1>
+  </div>
+    
+  <div class="content1">
+    <div class="sliders">
+      <div class="pull_up">
+        <h2>PULL UP</h2>
+        <div class="segm3_up">
+          <p>Segment 3 up - Position: <span id="servoPos0"></span></p>
+          <input type="range" min="0" max="180" class="slider" id="servoSlider0" value="0" onchange="servo1(this.value)"/>
+        </div>
+        <div class="segm2_up">
+          <p>Segment 2 up - Position: <span id="servoPos1"></span></p>
+          <input type="range" min="0" max="180" class="slider" id="servoSlider1" value="0" onchange="servo1(this.value)"/>
+        </div>
+        <div class="segm1_up">
+          <p>Segment 1 up - Position: <span id="servoPos2"></span></p>
+          <input type="range" min="0" max="180" class="slider" id="servoSlider2" value="0" onchange="servo2(this.value)"/>
+        </div>
+      </div>
+
+      <div class="pull_left">
+        <h2>PULL LEFT</h2>
+        <div class="segm3_left">
+          <p>Segment 3 left - Position: <span id="servoPos3"></span></p>
+          <input type="range" min="0" max="180" class="slider" id="servoSlider3" value="0" onchange="servo3(this.value)"/>
+        </div>
+        <div class="segm2_left">
+          <p>Segment 2 left - Position: <span id="servoPos4"></span></p>
+          <input type="range" min="0" max="180" class="slider" id="servoSlider4" value="0" onchange="servo4(this.value)"/>
+        </div>
+        <div class="segm1_left">
+          <p>Segment 1 left - Position: <span id="servoPos5"></span></p>
+          <input type="range" min="0" max="180" class="slider" id="servoSlider5" value="0" onchange="servo5(this.value)"/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content2">
+    <div class="sliders">
+      <div class="pull_right">
+        <h2>PULL RIGHT</h2>
+        <div class="segm3_right">
+          <p>Segment 3 right - Position: <span id="servoPos6"></span></p>
+          <input type="range" min="0" max="180" class="slider" id="servoSlider6" value="0" onchange="servo6(this.value)"/>
+        </div>
+        <div class="segm2_right">
+          <p>Segment 2 right - Position: <span id="servoPos7"></span></p>
+          <input type="range" min="0" max="180" class="slider" id="servoSlider7" value="0" onchange="servo7(this.value)"/>
+        </div>
+        <div class="segm1_right">
+          <p>Segment 1 right - Position: <span id="servoPos8"></span></p>
+          <input type="range" min="0" max="180" class="slider" id="servoSlider8" value="0" onchange="servo8(this.value)"/>
+        </div>
+      </div>
+
+      <div class="pull_down">
+        <h2>PULL DOWN</h2>
+        <div class="segm3_down">
+          <p>Segment 3 down - Position: <span id="servoPos9"></span></p>
+          <input type="range" min="0" max="180" class="slider" id="servoSlider9" value="0" onchange="servo9(this.value)"/>
+        </div>
+        <div class="segm2_down">
+          <p>Segment 2 down - Position: <span id="servoPos10"></span></p>
+          <input type="range" min="0" max="180" class="slider" id="servoSlider10" value="0" onchange="servo10(this.value)"/>
+        </div>
+        <div class="segm1_down">
+          <p>Segment 1 down - Position: <span id="servoPos11"></span></p>
+          <input type="range" min="0" max="180" class="slider" id="servoSlider11" value="0" onchange="servo11(this.value)"/>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src = "continuum.js"></script>
+</body>
+</html>
